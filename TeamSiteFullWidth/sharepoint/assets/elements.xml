@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="TeamSiteFullWidth"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="7c3749bd-241f-44c7-8ce7-483ae18f8c87"
+        ClientSideComponentProperties="">
+    </CustomAction>
+</Elements>

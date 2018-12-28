@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.1",
+    "libraryName": "team-site-full-width",
+    "libraryId": "e2ab4d20-1b03-4936-b8ae-f265f77ccbb5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

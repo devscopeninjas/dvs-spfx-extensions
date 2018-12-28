@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "team-site-full-width-client-side-solution",
+    "id": "e2ab4d20-1b03-4936-b8ae-f265f77ccbb5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "features": [
+      {
+        "title": "team-site-full-width-client-side-solution",
+        "description": "team-site-full-width-client-side-solution",
+        "id": "2103a7a3-695c-4311-899b-42d5331899c8",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/team-site-full-width.sppkg"
+  }
+}

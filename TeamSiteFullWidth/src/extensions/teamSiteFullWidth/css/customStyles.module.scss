@@ -1,0 +1,31 @@
+:global {
+ .sp-pageLayout-sideNav [class^='deferredLeftNav'] {
+    max-width: 0px;
+  }
+
+  .sp-pageLayout-sideNav .SPCanvas-canvas  {
+    max-width: 100%;
+  }
+
+  .sp-pageLayout-sideNav .CanvasZoneContainer:first-child .CanvasZone.row {
+    max-width: 100%;
+  }
+
+  .sp-pageLayout-sideNav .CanvasZoneContainer:first-child .CanvasZone.row,
+  .sp-pageLayout-sideNav .CanvasZoneContainer:first-child .CanvasZone.row .CanvasSection,
+  .sp-pageLayout-sideNav .CanvasZoneContainer:first-child .CanvasZone.row .CanvasSection .ControlZone,
+  {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .sp-pageLayout-sideNav .CanvasZone.row.CanvasZone--alignment.CanvasZone--read.CanvasZone--noMargin {
+    margin: auto;
+  }
+
+  .sp-pageLayout-sideNav [class^='spInnerCommentsWrapper_'] {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

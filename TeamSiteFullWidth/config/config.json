@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "team-site-full-width-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/teamSiteFullWidth/TeamSiteFullWidthApplicationCustomizer.js",
+          "manifest": "./src/extensions/teamSiteFullWidth/TeamSiteFullWidthApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamSiteFullWidthApplicationCustomizerStrings": "lib/extensions/teamSiteFullWidth/loc/{locale}.js"
+  }
+}
