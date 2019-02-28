@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "print-page-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/printPage/PrintPageApplicationCustomizer.js",
+          "manifest": "./src/extensions/printPage/PrintPageApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jQuery": {
+      "path": "/node_modules/jquery/dist/jquery.js",
+      "globalName": "jQuery"
+      },
+      "jquery-fab":{
+        "path": "/node_modules/jquery-fab/jquery-fab.js",
+        "globalName": "jQuery",
+        "globalDependencies": [
+        "jQuery"
+        ]
+      },
+      "p-loading":{
+        "path": "/node_modules/p-loading/dist/js/p-loading.min.js",
+        "globalName": "jQuery",
+        "globalDependencies": [
+        "jQuery"
+        ]
+      }
+  },
+  "localizedResources": {
+    "PrintPageApplicationCustomizerStrings": "lib/extensions/printPage/loc/{locale}.js"
+  }
+}

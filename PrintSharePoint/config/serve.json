@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://devscope365.sharepoint.com/sites/dev/SitePages/myDevPage.aspx",
+      "customActions": {
+        "b1720e9b-50dc-4df2-812c-6f4549eb71d6": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+          }
+        }
+      }
+    },
+    "printPage": {
+      "pageUrl": "https://devscope365.sharepoint.com/sites/dev/SitePages/myDevPage.aspx",
+      "customActions": {
+        "b1720e9b-50dc-4df2-812c-6f4549eb71d6": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+          }
+        }
+      }
+    }
+  }
+}

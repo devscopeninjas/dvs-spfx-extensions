@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="PrintPage"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="b1720e9b-50dc-4df2-812c-6f4549eb71d6"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

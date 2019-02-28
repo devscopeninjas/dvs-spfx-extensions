@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-print-extension-client-side-solution",
+    "id": "44d04214-c28b-40dd-a2d0-37a5d8392f59",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "DevScopeNinjas - Print Page to PDF or Image",
+        "description": "It saves your page to PDF or Image/PNG",
+        "id": "43a02ed4-f8f3-4156-be44-9c3bb1cfd754",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-print-extension.sppkg"
+  }
+}
